@@ -2,3 +2,10 @@ body{
     background-color: beige;
     text-align: center;
 }
+.topic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+footer{
+    margin-top: 10px;
+}
