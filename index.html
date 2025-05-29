@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="/scr/style.css">
     <title>Ai poem creating</title>
     
@@ -12,9 +13,10 @@
     <div class="wholepage">
         <header>
             <h1>Text generator with AI</h1>
+            <h2>Create 4 line english poem about..</h2>
         </header> 
         <form id="create-poem">
-            <input class ="askai" type="text" placeholder = "type topic">
+            <input id="user-prompt" class ="askai" type="text" placeholder = "type topic">
             <input class ="btnask" type="submit">
         </form>
         <div class="poem" id="poem">
