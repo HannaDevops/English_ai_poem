@@ -1,11 +1,58 @@
 body{
     background-color: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a{
+    color: rgb(28, 68, 55);
+}
+.wholepage{
+    margin: 100px auto;
+    
+    max-width: 600px;
+}
+
+h1{
+    font-size: 30px;
     text-align: center;
 }
-.topic{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+
+form{
+    margin-bottom: 10px;
+   padding: 20px;
+   background-color: azure;  
+   display: flex; 
+   border-radius: 5px;
+   text-align: center;
+}
+
+.askai{
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+}
+
+.btnask{
+    margin-left: 10px;
+    background-color: cadetblue;
+    border-radius: 45px;
+    border: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: rgb(28, 68, 55);
+}
+
+.poem{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: azure; 
 }
 footer{
     margin-top: 10px;
+    opacity: .7;
+    font-size: small;
+
 }
